@@ -1,0 +1,25 @@
+package TryWithResources;
+
+import java.io.Closeable;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Main {
+public static void main(String args[]) {
+		//Otomatik olarak dosya kapanir try with resources kullanilirsa
+//		try(FileWriter writer = new FileWriter("src/TryWithResources/dosya.txt");
+//		FileWriter writer1 = new FileWriter("src/TryWithResources/dosya1.txt")	
+//				){
+	
+	try
+				
+			writer.write("deneme");
+			writer1.write("deneme1");
+			}
+			catch (IOException e) {
+			// TODO Auto-generated catch block
+		System.out.println("Dosya olusturulurken hata olustu..");
+		}
+	
+}
+}

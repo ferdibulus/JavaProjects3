@@ -1,0 +1,86 @@
+package ReentrantLock;
+
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class ReentrantLockOrnegi {
+	private int say=0;
+	private Lock lock = new ReentrantLock();
+    private Condition condition = new Condition() {
+		
+		@Override
+		public void signalAll() {
+			// TODO Auto-generated method stub
+			
+		}
+		
+		@Override
+		public void signal() {
+			// TODO Auto-generated method stub
+			
+		}
+		
+		@Override
+		public boolean awaitUntil(Date deadline) throws InterruptedException {
+			// TODO Auto-generated method stub
+			return false;
+		}
+		
+		@Override
+		public void awaitUninterruptibly() {
+			// TODO Auto-generated method stub
+			
+		}
+		
+		@Override
+		public long awaitNanos(long nanosTimeout) throws InterruptedException {
+			// TODO Auto-generated method stub
+			return 0;
+		}
+		
+		@Override
+		public boolean await(long time, TimeUnit unit) throws InterruptedException {
+			// TODO Auto-generated method stub
+			return false;
+		}
+		
+		@Override
+		public void await() throws InterruptedException {
+			// TODO Auto-generated method stub
+			
+		}
+	};
+	
+	public void artir() {
+		for(int i=0; i<10000; i++) {
+		say++;
+		}
+	}
+	
+	public void thread1Fonksiyon() {
+		lock.lock();
+		try {
+		artir();
+		}
+		finally {
+		lock.unlock();
+		}
+	}
+	
+	public void thread2Fonksiyon() {
+		lock.lock();
+		try {
+			artir();
+			}
+		finally {
+		lock.unlock();
+		}
+	}
+	public void threadOver() {
+		
+		System.out.println("Say degiskenin degeri : " + say);
+	}
+}

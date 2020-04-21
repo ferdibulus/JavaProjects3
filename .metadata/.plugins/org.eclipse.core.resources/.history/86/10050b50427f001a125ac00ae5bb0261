@@ -1,0 +1,41 @@
+package MapInterfaceFarklari;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Main {
+	
+	public static void mapYazdir(Map<Integer, String> map) {
+		map.put(5, "Java");
+		map.put(2, "Javascript");
+		map.put(15, "php");
+		map.put(35, "c");
+		map.put(100, "css");
+		
+		
+//		for(Map.Entry<Integer, String> entry : map.entrySet()) {
+//			System.out.println("Key:" + entry.getKey() + " Value:" + entry.getValue());
+//		}
+		//System.out.println(map.keySet());
+		for(Integer key : map.keySet()) {
+			System.out.println("Key" + key + " Value:" +map.get(key));
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<Integer,String> hashmap = new HashMap<Integer, String>();
+		Map<Integer,String> linkedhashmap = new LinkedHashMap<Integer, String>();
+		Map<Integer,String> treemap = new TreeMap<Integer, String>();
+		
+		System.out.println("**********************");
+		mapYazdir(hashmap);
+		System.out.println("**********************");
+		mapYazdir(linkedhashmap);
+		System.out.println("**********************");
+		mapYazdir(treemap);
+		
+	}
+
+}

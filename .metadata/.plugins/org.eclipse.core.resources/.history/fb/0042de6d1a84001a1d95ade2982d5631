@@ -1,0 +1,17 @@
+package ReentrantLock;
+
+import java.util.concurrent.locks.ReentrantLock;
+
+import com.ferdi.thread1.Printer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ReentrantLockOrnegi re = new ReentrantLockOrnegi();
+		
+		Thread thread1 = new Thread();
+		
+	}
+
+}

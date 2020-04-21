@@ -1,0 +1,24 @@
+package com.ferdi.thread3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Anonim class
+		Thread printer1 = new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				System.out.println("Thread calisiyor");
+				for(int i=0; i<10; i++) {
+					System.out.println(i + " yaziliyor");
+					Thread.sleep(1000);
+				}
+			}
+		});
+		
+		System.out.println("Main thread calisiyor..");
+	}
+
+}

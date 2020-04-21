@@ -1,0 +1,7 @@
+package com.ferdi.thread1;
+
+public class Printer extends Thread {
+	
+	private String isim;
+	
+}

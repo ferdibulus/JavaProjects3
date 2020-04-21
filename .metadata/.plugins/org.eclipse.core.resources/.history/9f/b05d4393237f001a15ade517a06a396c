@@ -1,0 +1,59 @@
+package SetInterfaceHashsetLinkedHashsetVeTreeSet;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Main {
+
+	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		Set<String> set1 = new HashSet<String>();
+//		Set<String> set2 = new LinkedHashSet<String>();
+//		Set<String> set3 = new TreeSet<String>();
+//		
+//		set1.add("Java");
+//		set1.add("php");
+//		set1.add("html");
+//		set1.add("js");
+//		set1.add("code");
+//		
+//		//
+//		set2.add("Java");
+//		set2.add("php");
+//		set2.add("html");
+//		set2.add("js");
+//		set2.add("code");
+//		//
+//		set3.add("Java");
+//		set3.add("php");
+//		set3.add("html");
+//		set3.add("js");
+//		set3.add("code");
+//		//
+//		System.out.println("Bir veriden 1 tane eklenebilir.");
+//		System.out.println("******Hashset(Sirasi onemli degil)******");
+//		for(String s:set1) {
+//			System.out.println(s);
+//		}
+//		System.out.println("******LinkHash(Eklendigi sekilde siralar)******");
+//		for(String s:set2) {
+//			System.out.println(s);
+//		}
+//		System.out.println("******TreeHash(Alfabetik Olarak Siralar)******");
+//		for(String s:set3) {
+//			System.out.println(s);
+//		}
+//		
+//		System.out.println("------------------------------");
+//		System.out.println(set1.contains("GO"));
+//		System.out.println(set1.contains("Java"));
+//	
+		
+		Set<String> set1 = new HashSet<String>();
+		Set<String> set2 - new HashSet<String>();
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package OurExceptionClass;
+
+public class Main {
+	public static void mekanKontrol(int yas) {
+		if(yas<0) {
+			throw new InvalidAgeException("Invalid age")
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+	}
+
+}

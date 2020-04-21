@@ -1,0 +1,7 @@
+package SerializationApi;
+
+import BufferReader.Main;
+
+public class ObjeyiYaz {
+	Main
+}	

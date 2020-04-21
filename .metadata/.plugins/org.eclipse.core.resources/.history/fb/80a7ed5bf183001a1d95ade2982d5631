@@ -1,0 +1,18 @@
+package WaitNotify;
+
+import com.ferdi.thread1.Printer;
+
+public class Main {
+public static void main(String args[]) {
+	WaitNotify wn = new WaitNotify();
+	
+	Thread thread1 = new Thread(new Runnable() {
+		
+		@Override
+		public void run() {
+			// TODO Auto-generated method stub
+			wn.thread1Fonks
+		}
+	});
+}	
+}

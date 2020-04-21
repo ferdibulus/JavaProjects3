@@ -1,0 +1,32 @@
+package FinallyBlocks;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		try {
+			
+			//String s = "ferdi";
+			//String s= null;
+			int a = 30/0;
+			System.out.println(a);
+			//System.out.println(s.hashCode());
+		}
+		catch (ArithmeticException e) {
+			// TODO: handle exception
+		}
+		
+		catch (NullPointerException e) {
+			// TODO: handle exception
+			System.out.println("Null referans hatasi");
+			
+		}
+		finally {
+			System.out.println("Finally blogu calisiyor");
+			
+		}
+		System.out.println("Burasi calisiyor");//calismaz burasi
+	}
+
+}

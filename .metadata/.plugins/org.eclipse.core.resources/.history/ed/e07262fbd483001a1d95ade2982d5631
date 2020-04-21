@@ -1,0 +1,5 @@
+package ThreadHavuzlari;
+
+public class Worker implements Runnable{
+
+}

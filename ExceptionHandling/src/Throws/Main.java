@@ -1,0 +1,38 @@
+package Throws;
+
+import java.io.IOError;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+	
+		public static void mekanKontrol(int yas) throws IOException {
+			if(yas<18) {
+				throw new IOException();
+			}
+			else {
+				System.out.println("Mekana hosgeldiniz..");
+			}
+		}
+	public static void main(String[] args) throws IOException {//If the throws writen here,that means if someone use this projects like API,Then the person must write own catch block.
+		// TODO Auto-generated method stub
+
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Lutfen yasinizi giriniz:");
+		int yas = scan.nextInt();
+		
+		
+			mekanKontrol(yas);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

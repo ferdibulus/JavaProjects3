@@ -1,0 +1,14 @@
+package RamazanPidesiKuyrugu;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Pide Kuyrugu");
+		Queue<String> pide_kuyrugu = new LinkedList<String>();
+		pide_kuyrugu
+	}
+
+}

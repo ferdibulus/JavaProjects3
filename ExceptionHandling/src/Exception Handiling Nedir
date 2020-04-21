@@ -1,0 +1,8 @@
+Exception  calisma zamaninda programimizin normal akisini bozan mekanizmadir
+Exception Handling  istisna yakalama ise bu exceptiolarin yakalanmasi ve rogramlarimizi daha guvenli calismasi icin gelistirilmis mekanizmadir.
+Exceptionlara ornek:
+
+    Input-Output Hatalari
+    Veritabani baglanti hatasi
+    Aritmetik hatalar
+    

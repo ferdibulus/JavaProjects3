@@ -1,0 +1,14 @@
+1-Framework yazilim gelisitiricilerin kullandigi onceden hazirlanmis kutuphanelerin bulundgu 
+ve bunlara yenilerini ekleyebilecegi yailarin adidir.
+
+2-Gelismis framworklerde form kontrolu,veri tabani baglantisi,kullanici giri-cikis,mail atma,
+tema motoru gibi kutuhaneler mevcuttur.
+
+3-Ayrica bu kutuphaneler kendi icinde bir cok Somut Sinif(Concerte Class),Soyut Sinif(Abstract Class),
+Interface ve metodlar barindirir.
+
+    Ornekler:
+    1-Django Framework
+    2-Spring Framework
+    3-Hibernate Framework
+    4-Laravel Framework

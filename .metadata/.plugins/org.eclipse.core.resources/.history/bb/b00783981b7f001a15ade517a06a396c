@@ -1,0 +1,19 @@
+package arrayListMain;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//ArrayList<String> arrayList = new ArrayList<String>();
+		List<String> list = new ArrayList<String>();
+		list.add("Java");
+		list.add("Mysql");
+		list.add("Php");
+		
+		System.out.println(list.get(0));
+		System.out.println(list.get(4));
+	}
+
+}

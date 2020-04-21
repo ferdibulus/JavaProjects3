@@ -1,0 +1,15 @@
+package StacklerleBeraberKullanimi;
+//ExceptionPropagations
+public class Main {
+	
+	public static void ununcuFonksiyon() {
+		int a = 12/0;
+	}
+	public static void ikinciFonksiyon() {
+		ununcuFonksiyon();
+	}
+	
+public static void main(String args[]) {
+	
+}
+}

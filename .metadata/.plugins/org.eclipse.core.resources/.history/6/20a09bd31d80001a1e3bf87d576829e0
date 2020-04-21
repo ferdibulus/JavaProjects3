@@ -1,0 +1,11 @@
+package StacklerleBeraberKullanimi;
+//ExceptionPropagations
+public class Main {
+	
+	public static void ununcuFonksiyon() {
+		int a = 
+	}
+public static void main(String args[]) {
+	
+}
+}

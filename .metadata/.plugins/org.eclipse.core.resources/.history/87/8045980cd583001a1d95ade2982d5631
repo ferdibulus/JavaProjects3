@@ -1,0 +1,11 @@
+package ThreadHavuzlari;
+
+public class Worker implements Runnable{
+	private String isim;
+	@Override
+	public void run() {
+		
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package SerializationApi;
+
+import java.io.ObjectInputStream;
+
+public class ObjeyiOku {
+	public static void main(String args[]) {
+		try(ObjectInputStream)
+		
+		
+		
+	}
+	
+}

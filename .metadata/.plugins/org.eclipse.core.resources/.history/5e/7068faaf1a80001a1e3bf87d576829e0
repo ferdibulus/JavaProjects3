@@ -1,0 +1,25 @@
+package FinallyBlocks;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		try {
+			
+			String s = null;
+			System.out.println(s.hashCode());
+		}
+		
+		
+		catch (NullPointerException e) {
+			// TODO: handle exception
+			System.out.println("Null referans hatasi");
+		}
+		finally {
+			
+			
+		}
+	}
+
+}

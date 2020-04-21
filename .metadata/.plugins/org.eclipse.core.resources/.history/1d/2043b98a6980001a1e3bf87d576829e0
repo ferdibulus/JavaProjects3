@@ -1,0 +1,8 @@
+package SerializationApi;
+
+import java.io.Serializable;
+
+public class Ogrenci implements Serializable {
+	
+	privata
+}

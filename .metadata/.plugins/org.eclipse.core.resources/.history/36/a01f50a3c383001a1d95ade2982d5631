@@ -1,0 +1,18 @@
+package com.ferdi.thread1;
+
+public class Printer extends Thread {
+	
+	private String isim;
+
+	public Printer(String isim) {
+		
+		this.isim = isim;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println);
+	}
+	
+}

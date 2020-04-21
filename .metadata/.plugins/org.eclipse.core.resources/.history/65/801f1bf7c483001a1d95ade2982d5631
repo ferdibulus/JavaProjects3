@@ -1,0 +1,15 @@
+package com.ferdi.thread2;
+
+import com.ferdi.thread1.Printer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Thread printer1 = new Thread(new Printer)
+		
+		System.out.println("Main thread calisiyor..");
+	}
+
+}

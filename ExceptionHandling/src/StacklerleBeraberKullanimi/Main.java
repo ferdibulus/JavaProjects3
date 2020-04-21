@@ -1,0 +1,24 @@
+package StacklerleBeraberKullanimi;
+//ExceptionPropagations
+public class Main {
+	
+	public static void ununcuFonksiyon() {
+		try {
+		int a = 12/0;
+		}
+		catch (ArithmeticException e) {
+			// TODO: handle exception
+		System.out.println("Bir sayi 0 a bolunemez");
+		}
+		}
+	public static void ikinciFonksiyon() {
+		ununcuFonksiyon();
+	}
+	public static void birinciFonksiyon() {
+		ikinciFonksiyon();
+	}
+	
+public static void main(String args[]) {
+	birinciFonksiyon();
+}
+}

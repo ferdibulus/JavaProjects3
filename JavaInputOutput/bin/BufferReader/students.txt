@@ -1,0 +1,5 @@
+1ogrenci : Ferdi BULUS,Computer Science
+2ogrenci : Erdi Bulus,Metalurji ve Malzeme Muhendisligi
+3ogrenci : Emir Bulus,Pazarlamaci
+4ogrenci : Mustafa Murat,Yazilimci
+Ali Ozan,Insaat Muhendisligi

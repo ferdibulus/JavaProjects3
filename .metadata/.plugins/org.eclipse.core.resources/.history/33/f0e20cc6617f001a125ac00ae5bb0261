@@ -1,0 +1,14 @@
+package Vektor;
+
+import java.util.ArrayList;
+import java.util.Vector;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Vector<String> vector = new Vector<String>();
+		ArrayList<String> list - new ArrayList<E>()
+	}
+
+}

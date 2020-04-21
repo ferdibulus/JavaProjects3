@@ -1,0 +1,13 @@
+package ThreadHavuzlari;
+
+public class Worker implements Runnable{
+	private String isim;
+	private int taskId;
+	
+	@Override
+	public void run() {
+		
+		
+	}
+
+}

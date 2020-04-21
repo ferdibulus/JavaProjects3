@@ -1,0 +1,27 @@
+package Stackler;
+
+import java.util.Enumeration;
+import java.util.Stack;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Stack<String> stack = new Stack<String>();
+		stack.add("Java");
+		stack.push("Python");
+		stack.add("Hmtl");
+		stack.add("Php");
+		
+//		for(String s: stack) {
+//			System.out.println(s);
+//		}
+//		Enumeration<String> enumeration = stack.elements();
+//		while (enumeration.hasMoreElements()) {
+//			System.out.println(enumeration.nextElement());
+//			
+//		}
+		
+		System.out.println();
+	}
+
+}

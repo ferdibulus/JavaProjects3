@@ -1,0 +1,5 @@
+package OurExceptionClass;
+
+public class InvalidAgeException extends ArithmeticException{
+
+}

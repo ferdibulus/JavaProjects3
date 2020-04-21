@@ -1,0 +1,6 @@
+package com.ferdi.thread2;
+
+public class Printer implements Runnable{
+	
+
+}

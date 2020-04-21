@@ -1,0 +1,19 @@
+package com.ferdi.threadSynchronized;
+
+public class ThreadSafe {
+	private int count = 0;
+	public void threadleriCalistir() {
+		Thread thread1 = new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				
+			}
+		})
+	}
+ public static void main(String args[]) {
+	 ThreadSafe threadsafe = new ThreadSafe();
+	 threadsafe.threadleriCalistir();
+ }
+}

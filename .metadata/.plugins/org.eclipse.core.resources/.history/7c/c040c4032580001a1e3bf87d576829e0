@@ -1,0 +1,11 @@
+package OurExceptionClass;
+
+public class InvalidAgeException extends ArithmeticException{
+
+	@Override
+	public void printStackTrace() {
+		// TODO Auto-generated method stub
+		super.printStackTrace();
+	}
+	
+}

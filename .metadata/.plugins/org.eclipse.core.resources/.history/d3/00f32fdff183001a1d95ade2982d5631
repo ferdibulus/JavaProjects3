@@ -1,0 +1,14 @@
+package WaitNotify;
+
+public class WaitNotify {
+	public void thread1Fonksiyonu() {
+		synchronized (this) {
+			System.out.println("Thread1 Calisiyor...");
+			System.out.println("Thread1 Thread2'");
+		}
+	}
+	
+	public void thread2Fonksiyonu() {
+		
+	}
+}

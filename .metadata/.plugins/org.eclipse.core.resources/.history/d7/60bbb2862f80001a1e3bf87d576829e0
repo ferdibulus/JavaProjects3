@@ -1,0 +1,5 @@
+Dosyadan veri almak ve veri yazma islemleri yapilir.
+
+Java I/O dosyalardan ve degisik kaynaklardan input almak ve dosyalara ve degisik kaynaklara output yazmak icin bir API olarak bilinir.
+
+Input/Output islemlerini hizlandirmak icin Java "STREAM" leri kullanir.Java I/O Apisinin icinde input,output ismleri icin onlarca sinif bulunabilir.

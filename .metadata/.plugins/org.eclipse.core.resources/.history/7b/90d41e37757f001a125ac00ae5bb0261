@@ -1,0 +1,43 @@
+package PriorityQueue;
+
+import java.util.LinkedList;
+import java.util.PriorityQueue;
+
+public class Main {
+	
+	 class Player implements Comparable<Player>{
+		private String isim;
+		private int id;
+		public Player(String isim, int id) {
+			
+			this.isim = isim;
+			this.id = id;
+		}
+		@Override
+		public int compareTo(Player o) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+		
+	}
+public static void main(String args[]) {
+	
+	System.out.println();
+	PriorityQueue<Integer> kuyruk = new PriorityQueue<Integer>();
+//	//Priority de sira ile gozukmez for each mantiginda
+//	kuyruk.offer(2);
+//	kuyruk.add(3);
+//	kuyruk.add(1);
+//	kuyruk.add(5);
+//	kuyruk.add(4);
+//	kuyruk.add(7);
+//	kuyruk.add(8);
+//	kuyruk.add(6);
+//	
+//	while(!kuyruk.isEmpty()) {
+//		System.out.println("Eleman cikariliyor:" + kuyruk.poll());
+//	}
+	
+}
+}

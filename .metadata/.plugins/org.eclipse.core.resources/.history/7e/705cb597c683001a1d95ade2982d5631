@@ -1,0 +1,8 @@
+package com.ferdi.threadSynchronized;
+
+public class ThreadSafe {
+	private int count 
+ public static void main(String args[]) {
+	 
+ }
+}

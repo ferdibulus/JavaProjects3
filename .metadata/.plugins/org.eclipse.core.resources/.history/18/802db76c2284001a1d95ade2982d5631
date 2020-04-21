@@ -1,0 +1,8 @@
+package Deadlock;
+
+public class Main {
+public static void main(String args[]) {
+	//Thread 1 1.anahtari alip 2.anahtarida Thread 2 alir ise deadlock olusur.
+	//Semap
+}
+}

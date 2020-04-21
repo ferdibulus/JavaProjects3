@@ -1,0 +1,14 @@
+package SerializationApi;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+public class ObjeyiOku {
+	public static void main(String args[]) {
+		try(ObjectInputStream in = new ObjectInputStream(new FileInputStream("src/SerializationApi/ogrenci.bin")))
+		
+		
+		
+	}
+	
+}

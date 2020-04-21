@@ -1,0 +1,47 @@
+package ReentrantLock;
+
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class ReentrantLockOrnegi {
+	private int say=0;
+	private Lock lock = new ReentrantLock();
+    private Condition condition =lock.newCondition();
+	
+	public void artir() {
+		for(int i=0; i<10000; i++) {
+		say++;
+		}
+	}
+	
+	public void thread1Fonksiyon() {
+		lock.lock();
+		System.out.println("Thread1 uyandirilmayi bekliyor..");
+		try {
+			condition.await();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		artir();
+		
+		
+		lock.unlock();
+		
+	}
+	
+	public void thread2Fonksiyon() {
+		lock.lock();
+		
+			artir();
+		
+	
+		lock.unlock();
+		
+	}
+	public void threadOver() {
+		
+		System.out.println("Say degiskenin degeri : " + say);
+	}
+}

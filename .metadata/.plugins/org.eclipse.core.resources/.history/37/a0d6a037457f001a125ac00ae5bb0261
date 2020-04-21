@@ -1,0 +1,61 @@
+package HashCodeveEquals;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Main {
+	static class Player {
+		private String isim;
+		private int id;
+		public Player(String isim, int id) {
+			
+			this.isim = isim;
+			this.id = id;
+		}
+		@Override
+		public String toString() {
+			// TODO Auto-generated method stub
+			return "||||" + id + " isim: " + isim + "||||";
+			
+		}
+		@Override
+		public int hashCode() {
+			// TODO Auto-generated method stub
+			return super.hashCode();
+		}
+		@Override
+		public boolean equals(Object obj) {
+			// TODO Auto-generated method stub
+			return super.equals(obj);
+		}
+
+
+		
+	}
+public static void main(String args[]) {
+	Set<Player> hashset = new HashSet<Player>();
+	
+	Player player2 = new Player("erdi", 3);
+	Player player3 = new Player("emir", 7);
+	Player player4 = new Player("ferdo", 5);
+	Player player1 = new Player("ferdo", 5);
+	
+	hashset.add(player1);
+	hashset.add(player2);
+	hashset.add(player3);
+	hashset.add(player4);
+	
+	for(Player p : hashset) {
+		System.out.println(p);
+	}
+//	hashset.add("Java");
+//	hashset.add("python");
+//	hashset.add("c");
+//	hashset.add("css");
+//	hashset.add("css");
+//	
+//	for(String s : hashset) {
+//		System.out.println(s);
+//	}
+}
+}

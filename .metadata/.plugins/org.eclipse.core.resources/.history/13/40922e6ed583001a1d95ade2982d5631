@@ -1,0 +1,16 @@
+package ThreadHavuzlari;
+
+import com.ferdi.thread1.Printer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Thread t1= new Thread(new Worker("1", 1));
+		Thread t2= new Thread(new Worker("1", 1));
+		Thread t3= new Thread(new Worker("1", 1));
+		Thread t4= new Thread(new Worker("1", 1));
+		Thread t5= new Thread(new Worker("1", 1));
+	}
+
+}

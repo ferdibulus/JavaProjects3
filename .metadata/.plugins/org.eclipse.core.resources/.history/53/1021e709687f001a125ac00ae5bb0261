@@ -1,0 +1,19 @@
+package Queue;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+import javax.management.Query;
+
+public class Main {
+
+	public static void main(String[] args) {
+	  Queue<String> queue = new LinkedList<String>();
+	  queue.offer("Java");
+	  queue.offer("php");
+	  queue.offer("html");
+	  queue.offer("Java");
+	  
+	}
+
+}

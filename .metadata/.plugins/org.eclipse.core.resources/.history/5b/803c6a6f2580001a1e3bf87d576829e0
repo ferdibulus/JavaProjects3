@@ -1,0 +1,20 @@
+package OurExceptionClass;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void mekanKontrol(int yas) {
+		if(yas<0) {
+			throw new InvalidAgeException("Invalid age");
+		}
+		else {
+			System.out.println("mekana hosgeldiniz..");
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Scanner scanner = new Scanner(System.in);
+			System.out.println("");
+	}
+
+}
